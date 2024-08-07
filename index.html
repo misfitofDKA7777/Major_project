@@ -11,7 +11,7 @@
 	<h1 style="color:blue;">Network Intrusion Detection System</h1>
 
      <!-- Main Input For Receiving Query to our ML -->
-    <form action="{{ url_for('predict')}}"method="post">
+    <form action="/predict" method="post">
         <label for="attack">Attack:</label>
         <select id="attack" name="attack">
           <option value="0">Other</option>
